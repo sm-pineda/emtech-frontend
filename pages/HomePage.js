@@ -6,8 +6,12 @@ export default function HomePage({navigation}) {
     return(
         <View style={GlobalStyles.screenContainer}>
             <Text style={GlobalStyles.headerText}>Home Page</Text>
+            <View style={GlobalStyles.buttonContainer}>
+                <Button title="Register" onPress={() => navigation.navigate('Register')} />
+            </View>
+
             <View>
-                <Button style={GlobalStyles.buttonContainer} title="Register" onPress={() => navigation.navigate('Register')} />
+                <Button title="View Users" onPress={() => navigation.navigate('UserList')} />
             </View>
         </View>
     );

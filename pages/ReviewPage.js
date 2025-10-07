@@ -26,6 +26,8 @@ export default function ReviewPage({ route, navigation }) {
 
             <View style={GlobalStyles.buttonContainer}>
                 <Button title="Go back to edit" onPress={() => navigation.goBack()} />
+            </View>    
+            <View style={GlobalStyles.buttonContainer}>
                 <Button title="Submit" onPress={handleSubmit}/>
             </View>
 
