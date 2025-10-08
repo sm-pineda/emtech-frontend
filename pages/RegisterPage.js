@@ -1,7 +1,6 @@
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, TextInput } from 'react-native';
 import { GlobalStyles } from '../styles'; 
 import { useState } from 'react'; /* For managing form state */
-import { TextInput } from 'react-native-web';
 
 export default function RegisterPage({navigation}) {
 
