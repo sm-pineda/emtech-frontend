@@ -52,6 +52,7 @@ const handleDelete = (id) => {
                     <Text>Firstname: {item.first_name}</Text>
                     <Text>Lastname: {item.last_name}</Text>
                     <Text>Email: {item.email}</Text>
+                    <Text>Gender: {item.gender}</Text>
                     <View>
                         <Button title="Edit" color="#34990cff" onPress={() => handleEdit(item)} />
                         <Button title="Delete" color="#a7080bff" onPress={() => handleDelete(item.id)}/>
